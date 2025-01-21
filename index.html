@@ -162,6 +162,7 @@ left: 200px;
     }
     .hourse:hover{
         cursor: pointer;
+
         background-color: rgb(196, 190, 190);
     }
     .hourse{
@@ -226,6 +227,8 @@ left: 200px;
         /* background-color: aqua; */
     }
     .active h2{
+        font-weight: lighter;
+        
         font-size:6cap;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
@@ -241,6 +244,7 @@ color: gray;
     }
     .total h2{
         font-size:6cap;
+        font-weight: lighter;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .total p{
@@ -255,6 +259,7 @@ color: gray;
     }
     .coffee h2{
         font-size:6cap;
+        font-weight: lighter;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .coffee p{
@@ -269,6 +274,7 @@ color: gray;
     }
     .fans h2{
         font-size:6cap;
+        font-weight: lighter;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .fans p{
@@ -304,6 +310,7 @@ margin-left: 180px;
     margin-top: 20px;
     padding: 10px;
     font-size: 2.5cap;
+    color: orangered;
 }
 .auther h2{
     font-size: 5cap;
@@ -353,6 +360,104 @@ margin-left: 180px;
     margin-top: 10px;
     color: rgb(164, 161, 161);
 }
+.ninecard{
+    width: 100%;
+    height: 900px;
+    /* background-color: aqua; */
+
+}
+.merge{
+    display: inline-block;
+    width: 29%;
+    height: 340px;
+    margin-left: 50px;
+    margin-right: -10px;
+    margin-bottom: 30px;
+    /* border: 2px solid goldenrod; */
+}
+.booktext:hover{
+    background-color: rgb(195, 190, 190);
+    cursor: pointer;
+    color: white;
+    /* font-size: larger; */
+
+}
+.booktext h2:hover{
+    color: rgb(153, 149, 149);
+
+}
+.bookimg img{
+    display: inline-block;
+    width: 220px;
+    height: 336px;
+}
+.booktext{
+    display: inline-block;
+background-color: rgb(228, 225, 222);
+width: 222px;
+height: 336px;
+float: right;
+margin-top: -339px;
+
+}
+.booktext p{
+    color: orangered;
+    margin-left: 20px;
+    font-size: x-large;
+    padding-top: 25px;
+}
+.booktext h2{
+    color: rgb(15, 15, 14);
+    margin-left: 20px;
+    font-size:2.5cap;
+    margin-top: 15px;
+    line-height: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+.booktext h4{
+    color: gray;
+    margin-top: 20px;
+    font-size:2.2ch;
+    font-weight: lighter;
+    padding-left: 15px;
+}
+.team{
+    width: 100%;
+    height: 600px;
+    background-repeat:no-repeat ;
+background-size: cover;
+    background-image:url(img/bg_4.jpg)  ;
+    text-align: center;
+}
+.team p{
+    font-size: 2.5cap;
+    /* background-color: antiquewhite; */
+    width: 20%;
+    height: 50px;
+    margin-left: 600px;
+    /* margin-top: 50px; */
+    padding-top: 150px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(216, 210, 210);
+}
+.team h2{
+font-size: 5cap;   
+margin-top: 50px; 
+color: white;
+}
+.cardmove{
+    width: 30%;
+    height: 200px;
+    background-color: aqua;
+    border: 2px solid red;
+    position: relative;
+}
+.radiusimg{
+position: absolute;
+
+
+
+}
     </style>
 </head>
 <body>
@@ -392,7 +497,7 @@ margin-left: 180px;
     <button class="view">View All Book</button><button class="explore">Explore Now</button>
 </div>
 <div class="card">
-<div class="hourse"><img src="img/unicorn.png" alt=""></div>
+<div class="hourse"><img src="img/horse.png" alt=""></div>
     <div class="Children">
     <h3>Children's Book</h3>
     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -401,21 +506,21 @@ margin-left: 180px;
 
 
 <div class="card2">
-<div class="hourse"><img src="img/unicorn.png" alt=""></div>
+<div class="hourse"><img src="img/horse.png" alt=""></div>
     <div class="Children">
     <h3>Children's Book</h3>
     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
     </div>
 </div>
 <div class="card3">
-    <div class="hourse"><img src="img/unicorn.png" alt=""></div>
+    <div class="hourse"><img src="img/horse.png" alt=""></div>
         <div class="Children">
         <h3>Children's Book</h3>
         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
         </div>
     </div>
     <div class="card4">
-        <div class="hourse"><img src="img/unicorn.png" alt=""></div>
+        <div class="hourse"><img src="img/horse.png" alt=""></div>
             <div class="Children">
             <h3>Children's Book</h3>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -469,5 +574,49 @@ margin-left: 180px;
     <H2>News Release</H2>
 </div>
 </div>
+
+<div class="ninecard">
+
+<div class="merge">
+<div class="bookimg"><img src="img/book-1 (1).jpg" alt=""></div>
+<div class="booktext"><p>$12.00</p><h2>You Are Your <br>Only Limit</h2><h4>By John Nathan Muller</h4></div>
+    </div>
+
+    <div class="merge">
+        <div class="bookimg"><img src="img/book-2.jpg" alt=""></div>
+     <div class="booktext"><p>$12.00</p><h2>101 Essays That <br>Will Change The <br> Way Your <br> Thinks</h2><h4>By John Nathan Muller</h4></div>
+     </div>
+     <div class="merge">
+    <div class="bookimg"><img src="img/book-3.jpg" alt=""></div>
+    <div class="booktext"><p>$12.00</p><h2>Your Soul Is A River</h2><h4>By John Nathan Muller</h4></div>
+    </div>
+    <div class="merge">
+     <div class="bookimg"><img src="img/book-4.jpg" alt=""></div>
+    <div class="booktext"><p>$12.00</p><h2>All The Letters I Should Have <br>Sent</h2><h4>By John Nathan Muller</h4></div>
+     </div>
+    <div class="merge">
+     <div class="bookimg"><img src="img/book-5.jpg" alt=""></div>
+     <div class="booktext"><p>$12.00</p><h2>Happy</h2><h4>By John Nathan Muller</h4></div>
+      </div>
+     <div class="merge">
+     <div class="bookimg"><img src="img/book-6.jpg" alt=""></div>
+     <div class="booktext"><p>$12.00</p><h2>Milk & Honey</h2><h4>By John Nathan Muller</h4></div>
+     </div>
+</div>
+
+
+<div class="team">
+    <p>TESTIMONAL</p>
+    <h2>Kinds Words From Clients</h2>
+</div>
+<div class="cardmove">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor omnis dolorem, quasi itaque porro nihil corporis adipisci minus sunt fugiat.</p>
+    <div class="radiusimg"><img src="img/person_1.jpg" alt=""></div>
+    <div class="radiusimg"><h2>Roger Scott</h2>
+    <h3>Marketing Manager</h3></div>
+</div>
+
+
+
 </body>
 </html>
